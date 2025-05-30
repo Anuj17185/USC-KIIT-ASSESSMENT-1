@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    margin:0px 0px;
+}
+.flex-container{
+    display: flex;
+    margin: 50px;
+    padding: 10px 150px;
+    flex-direction: row;
+    font-size: small;
+    flex-wrap: nowrap;
+}
+.option{
+    margin-right:30px;
+    display: inline-flex;
+    color: aliceblue;
+}
+a:hover{
+    color:rgb(111, 236, 192);
+}
+
+.option2{
+    margin-left: 35%;
+    background-color:rgb(69, 223, 193) ;
+    border: none;
+    height:30px;
+    width:100px;
+    border-radius: 4px; ;
+}
+.option2:hover{
+    background-color: rgb(4, 160, 129) ;
+}
+.content{
+    display:flex;
+    margin:20px 50px;
+}
+.image{
+    height:400px;
+    width:280px;
+    margin:0px;
+}
+.content-element{
+    margin-left:230px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+
+}
+.h{
+    color: rgb(69, 223, 193);
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight:300;
+    font-family: 'Poppins',sans-serif;
+}
+.top{
+    color: aliceblue;
+    font-weight:200;
+    font-family: 'Poppins';
+    margin-top:0px;
+    margin-bottom: 0px;
+    line-height: 1.4;
+    font-size: 50px;
+}
+.bottom{
+    color: rgb(69, 223, 193);
+    margin-top: 0px;
+    margin-bottom:0px;
+    font-weight:200;
+    font-family: 'Poppins';
+    font-size: 50px;
+    line-height: 1.4;
+    padding-top: 0px;
+    }
+
+p{
+    color:aliceblue;
+    font-family: 'Poppins', sans-serif;
+    margin:20px 0px;
+    line-height: 1.6;
+    font-size: 12px;
+}
+.download{
+    background-color: transparent;
+    color:rgb(69, 223, 193);
+    border-color: rgb(69, 223, 193);
+    font-weight: bold;
+    padding: 8px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.download:hover{
+    background-color: rgb(140, 206, 193);
+    color:rgb(37, 116, 101);
+}
+@media screen and (max-width:455px) {
+        .flex-container{
+        flex-direction:column;
+        margin-left:0px;
+    }
+    .option{
+        margin-left:10px;
+        margin-top:20px;
+    }
+    .flex-container>button:last-child{
+        margin-left:10px;
+        margin-top:40px;
+    }
+    .content{
+        flex-direction:column;
+        margin-left:20px;
+        margin-right:0px;
+    }
+    .content-element{
+        margin-left:20px;
+
+    }
+}
